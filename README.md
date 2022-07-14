@@ -18,7 +18,7 @@ Requires: slpkg
  It will take some time to build and install all packages...
  
 # STEP 1
-EDIT /etc/rc.d/rc.local 
+EDIT `/etc/rc.d/rc.local`
 and add these lines: 
 ```
  # Start avahidaemon
@@ -31,7 +31,7 @@ if [ -x /etc/rc.d/rc.avahidnsconfd ]; then
 fi
 ```
 # STEP 2
-EDIT /etc/rc.d/rc.local_shutdown (if not exist then create one)
+EDIT `/etc/rc.d/rc.local_shutdown` (if not exist then create one)
 
 Add these lines in this file if exist:
 
@@ -70,7 +70,7 @@ chmod +x /etc/rc.d/rc.local_shutdown
 ```
 
 # STEP 3
-EDIT /etc/rc.d/rc.4
+EDIT `/etc/rc.d/rc.4`
 and remove that -nodaemon option from gdm
 your file should be like this:
 ```
