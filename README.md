@@ -31,7 +31,7 @@ if [ -x /etc/rc.d/rc.avahidnsconfd ]; then
 fi
 ```
 # STEP 2
-edit /etc/rc.d/rc.local_shutdown (if you dont have  rc.local_shutdown on your system then create one)
+EDIT /etc/rc.d/rc.local_shutdown (if not exist then create one)
 
 Add these lines in this file if exist:
 
@@ -46,7 +46,7 @@ if [ -x /etc/rc.d/rc.avahidaemon ]; then
 fi
 ```
 
-if not exist then create it and add these lines to the empty file:
+if not exist, then create it and add these lines to the empty file:
 
 ```
 #!/bin/bash
