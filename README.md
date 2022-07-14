@@ -1,4 +1,4 @@
-Slackware build-install scripts for Gnome from Bob Funk work (https://github.com/0xBOBF/gnome-slackware-15.0)
+# Slackware build-install scripts for Gnome from Bob Funk`s work (https://github.com/0xBOBF/gnome-slackware-15.0)
 These scripts are only for the Slackware64 15 (stable) version. 
 Scripts using slpkg tool to build and install Gnome from Slackbuilds.org
 
