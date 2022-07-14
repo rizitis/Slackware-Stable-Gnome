@@ -15,7 +15,7 @@ Requires: slpkg
 ```
  
  
- It will take some time to build packages...
+ It will take some time to build and install all packages...
  
 # STEP 1
 EDIT /etc/rc.d/rc.local 
