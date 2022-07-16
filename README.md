@@ -79,4 +79,13 @@ if [ -x /usr/sbin/gdm ]; then
 fi
 ```
 
+# STEP 4 OPTIONAL but RECOMMENDED
+EDIT `/etc/inittab`
+and turn to runlevel 4 
+```
+# Default runlevel. (Do not set to 0 or 6)
+id:4:initdefault:
+
+```
+
 REBOOT and enjoy! 
