@@ -27,6 +27,7 @@ colord \
 gnome-desktop \
 geocode-glib \
 libdaemon \
+blocaled \
 avahi \
 geoclue2 \
 libgweather \
@@ -107,4 +108,5 @@ gnome-maps \
 grilo \
 gfbgraph \
 gnome-photos \
+gnome-screenshot \
 seahorse --add
