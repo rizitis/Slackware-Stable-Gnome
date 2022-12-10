@@ -22,7 +22,7 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #  Before you run this script read README !!! 
 
-set -e
+
 
 source /etc/profile
 
