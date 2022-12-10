@@ -7,11 +7,10 @@ Requires: slpkg
 ## How to:
 
 # STEP 0 
- Download zip file, unzip it and run these 2 scripts as root. 
+ Download zip file, unzip it and run  script as root. 
  
  ```
 ./Gnome1-slpkg
-./Gnome2-slpkg
 ```
  
  
