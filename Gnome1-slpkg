@@ -24,6 +24,8 @@
 
 set -e
 
+source /etc/profile
+
 groupadd -g 303 colord
 useradd -d /var/lib/colord -u 303 -g colord -s /bin/false colord
 groupadd -g 214 avahi
