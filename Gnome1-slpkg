@@ -22,7 +22,14 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #  Before you run this script read README !!! 
 
-slpkg -q libgusb \
+set -e
+
+groupadd -g 303 colord
+useradd -d /var/lib/colord -u 303 -g colord -s /bin/false colord
+groupadd -g 214 avahi
+useradd -u 214 -g 214 -c Avahi -d /dev/null -s /bin/false avahi
+
+slpkg -i libgusb \
 colord \
 gnome-desktop \
 geocode-glib \
@@ -109,4 +116,4 @@ grilo \
 gfbgraph \
 gnome-photos \
 gnome-screenshot \
-seahorse --add
+seahorse 
