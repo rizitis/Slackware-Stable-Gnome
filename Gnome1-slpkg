@@ -23,7 +23,7 @@
 #  Before you run this script read README !!! 
 
 
-
+updatedb
 source /etc/profile
 
 groupadd -g 303 colord
